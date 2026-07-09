@@ -7,3 +7,9 @@ metadata/formulation_space_260626.csv,paired_rows,number of paired FT-IR/DSC/UTM
 metadata/split_summary_260626.csv,fixed_test_paired_measurements,independent test paired-row count reported in the manuscript
 data_sample/sample_ftir_msc_spectra_downsampled.csv,wn_*,Downsampled multiplicative-scatter-corrected FT-IR spectral intensity columns
 data_sample/sample_formulation_metadata.csv,sample_scope,Representative sample rows for file-format demonstration only
+metadata/model_input_schema.csv,component,Model input component name
+metadata/model_input_schema.csv,representation,Public description of the input representation
+metadata/response_target_schema.csv,target,Response target or scalar property group
+metadata/response_target_schema.csv,response_representation,Description of the modeled response representation
+metadata/evaluation_metric_definitions.csv,metric,Metric or evaluation concept used in the manuscript
+metadata/evaluation_metric_definitions.csv,interpretation,Reader-facing interpretation of the metric

@@ -13,12 +13,24 @@ The manuscript describes a gated multimodal fusion attention network (GMFAN) tha
 ## Repository contents
 
 ```text
-metadata/      Manuscript-aligned formulation, split, uncertainty, schema, and MOBO summary CSV files
+metadata/      Manuscript-aligned formulation, split, input/target schema, uncertainty, metric, and MOBO summary CSV files
 data_sample/   Representative sample files showing the public FT-IR input and formulation metadata format
-scripts/       Lightweight consistency checker for manuscript-level repository metadata
+scripts/       Lightweight consistency and metadata-inspection utilities
 ```
 
 The representative sample files are provided to demonstrate data format and repository workflow. Full experimental datasets used for model training and evaluation are available from the corresponding authors upon reasonable request.
+
+## What this repository enables
+
+This repository enables readers to:
+
+1. inspect the PBPF formulation space used in the manuscript;
+2. verify the formulation-disjoint split summary and fixed-test composition list;
+3. examine representative FT-IR input formatting and formulation metadata;
+4. review model input, response-target, and evaluation-metric definitions;
+5. review the reported curve-uncertainty summary;
+6. review the computationally prioritized MOBO candidate formulations; and
+7. run lightweight consistency and metadata-inspection utilities.
 
 ## Manuscript-aligned key facts
 
@@ -35,9 +47,10 @@ The representative sample files are provided to demonstrate data format and repo
 
 ```bash
 python3 scripts/verify_public_package.py
+python3 scripts/inspect_public_metadata.py
 ```
 
-The check verifies the manuscript-level formulation counts, paired-row counts, fixed-test split summary, representative sample-file alignment, prioritized MOBO candidate identifiers, and absence of private/local path markers.
+The consistency check verifies the manuscript-level formulation counts, paired-row counts, fixed-test split summary, representative sample-file alignment, prioritized MOBO candidate identifiers, and absence of private/local path markers.
 
 ## Data availability
 

@@ -1,0 +1,5 @@
+metric,full_name,used_for,interpretation,public_file
+PICP,Prediction interval coverage probability,Curve-level uncertainty evaluation,Fraction of measured response points covered by the calibrated prediction interval; compared with nominal 0.80 coverage,metadata/curve_uncertainty_metrics_260626.csv
+IW,Standardized interval width,Curve-level uncertainty sharpness evaluation,Average calibrated prediction-interval width on a standardized response scale; interpreted together with PICP,metadata/curve_uncertainty_metrics_260626.csv
+IS,Standardized interval score,Curve-level uncertainty evaluation,Score combining interval width and penalties for observations outside the interval; lower values indicate a more favorable sharpness-coverage balance,metadata/curve_uncertainty_metrics_260626.csv
+Formulation-disjoint split,Composition-level train/validation/test separation,Leakage prevention during model development and evaluation,Repeated measurements from the same PBPF formulation remain within the same split subset,metadata/formulation_space_260626.csv; metadata/fixed_test_formulations_260626.csv
