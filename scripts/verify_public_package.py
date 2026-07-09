@@ -18,7 +18,7 @@ def require(condition, message):
 
 
 def main():
-    formulation = read_csv('metadata/formulation_space_260626.csv')
+    formulation = read_csv('metadata/formulation_space.csv')
     require(len(formulation) == 24, f'expected 24 formulations, found {len(formulation)}')
     paired = sum(int(r['paired_rows']) for r in formulation)
     require(paired == 459, f'expected 459 paired rows, found {paired}')
@@ -27,7 +27,7 @@ def main():
     fixed_rows = sum(int(r['paired_rows']) for r in fixed_test)
     require(fixed_rows == 108, f'expected 108 fixed-test paired rows, found {fixed_rows}')
 
-    candidates = {r['composition_id'] for r in read_csv('metadata/mobo_prioritized_candidates_260626.csv')}
+    candidates = {r['composition_id'] for r in read_csv('metadata/mobo_prioritized_candidates.csv')}
     require(candidates == {'PBPF-91A-0.1', 'PBPF-91P-0.1'}, f'unexpected MOBO candidates: {sorted(candidates)}')
 
     sample_meta = read_csv('data_sample/sample_formulation_metadata.csv')

@@ -12,12 +12,12 @@ def read_csv(rel):
 
 
 def main():
-    formulation = read_csv('metadata/formulation_space_260626.csv')
+    formulation = read_csv('metadata/formulation_space.csv')
     fixed_test = [r for r in formulation if r['split_role'] == 'test']
     cv_rows = [r for r in formulation if r['split_role'] == 'cv']
     samples = read_csv('data_sample/sample_ftir_msc_spectra_downsampled.csv')
-    uncertainty = read_csv('metadata/curve_uncertainty_metrics_260626.csv')
-    candidates = read_csv('metadata/mobo_prioritized_candidates_260626.csv')
+    uncertainty = read_csv('metadata/curve_uncertainty_metrics.csv')
+    candidates = read_csv('metadata/mobo_prioritized_candidates.csv')
     input_schema = read_csv('metadata/model_input_schema.csv')
     target_schema = read_csv('metadata/response_target_schema.csv')
 

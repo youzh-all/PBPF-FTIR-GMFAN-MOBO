@@ -1,0 +1,10 @@
+item,value
+eligible_formulations,24
+integrated_paired_measurements,459
+fixed_test_formulations,6
+fixed_test_paired_measurements,108
+cross_validation_formulations,18
+cross_validation_paired_measurements,351
+split_policy,formulation-disjoint; repeated measurements from the same formulation remain in the same subset
+n_cv_folds,5
+split_seed,42
