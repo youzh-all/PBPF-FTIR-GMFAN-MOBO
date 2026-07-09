@@ -11,7 +11,7 @@
 
 The public files support review of the dataset organization, formulation-disjoint split design, representative FT-IR input format, uncertainty summary, and prioritized MOBO candidate table associated with the manuscript.
 
-Full model retraining, full curve-prediction benchmarking, XAI attribution-map generation, and MOBO landscape reconstruction require the full experimental FT-IR, DSC, and UTM datasets available from the corresponding authors upon reasonable request.
+For readers who wish to extend the inspection to full model retraining, curve-prediction benchmarking, XAI attribution-map generation, or MOBO landscape reconstruction, the corresponding full experimental FT-IR, DSC, and UTM datasets can be requested from the corresponding authors.
 
 ## Interpretation boundary
 
