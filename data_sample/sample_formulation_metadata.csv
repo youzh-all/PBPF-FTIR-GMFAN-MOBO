@@ -1,0 +1,9 @@
+composition_id,alcohol_ratio,cnc_type,cnc_content,paired_rows,split_role,sample_scope
+PBPF-73,73,Pure,0.0,15,test,representative metadata row; not full dataset
+PBPF-73P-0.05,73,P,0.05,18,test,representative metadata row; not full dataset
+PBPF-73S-0.1,73,S,0.1,18,test,representative metadata row; not full dataset
+PBPF-82P-0.2,82,P,0.2,21,test,representative metadata row; not full dataset
+PBPF-82S-0.05,82,S,0.05,15,test,representative metadata row; not full dataset
+PBPF-91S-0.05,91,S,0.05,21,test,representative metadata row; not full dataset
+PBPF-73A-0.05,73,A,0.05,21,cv,representative metadata row; not full dataset
+PBPF-82,82,Pure,0.0,24,cv,representative metadata row; not full dataset

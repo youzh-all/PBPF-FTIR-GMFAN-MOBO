@@ -1,0 +1,3 @@
+composition_id,interpretation,Tm_C,Tc_C,tensile_strength_MPa,elongation_at_break_percent,tradeoff_note
+PBPF-91A-0.1,computationally prioritized candidate; follow-up validation required,146.2,64.4,70.9,714.0,higher-strength candidate
+PBPF-91P-0.1,computationally prioritized candidate; follow-up validation required,152.8,75.3,58.9,752.0,higher-elongation and higher-transition-temperature candidate

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "PBPF-FTIR-GMFAN-MOBO: Minimal public package for FT-IR-guided GMFAN/MOBO analysis of PBPF bioplastics"
+type: software
+message: "If you use this public transparency package, please cite the associated manuscript."
+authors:
+  - family-names: Choi
+    given-names: Yujin
+  - family-names: Jeon
+    given-names: Yu-Jin
+  - family-names: Jung
+    given-names: Dae-Hyun
+  - family-names: Hwang
+    given-names: Sung Yeon
+repository-code: "https://github.com/REPLACE_OWNER/PBPF-FTIR-GMFAN-MOBO"

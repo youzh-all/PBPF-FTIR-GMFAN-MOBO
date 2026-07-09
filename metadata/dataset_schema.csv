@@ -1,0 +1,9 @@
+file,column,description
+metadata/formulation_space_260626.csv,composition_id,PBPF formulation identifier
+metadata/formulation_space_260626.csv,alcohol_ratio,"BD/PTMEG molar ratio encoded as 73, 82, or 91"
+metadata/formulation_space_260626.csv,cnc_type,"CNC modifier class: Pure, A, P, or S"
+metadata/formulation_space_260626.csv,cnc_content,CNC loading content in wt%
+metadata/formulation_space_260626.csv,paired_rows,number of paired FT-IR/DSC/UTM records for the formulation
+metadata/split_summary_260626.csv,fixed_test_paired_measurements,independent test paired-row count reported in the 260626 manuscript
+data_sample/sample_ftir_msc_spectra_downsampled.csv,wn_*,Downsampled multiplicative-scatter-corrected FT-IR spectral intensity columns
+data_sample/sample_formulation_metadata.csv,sample_scope,Representative sample rows for file-format demonstration only

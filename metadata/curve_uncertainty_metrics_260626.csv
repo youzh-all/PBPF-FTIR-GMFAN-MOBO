@@ -1,0 +1,4 @@
+response_type,picp,standardized_interval_width,standardized_interval_score,nominal_coverage
+DSC heating,0.805,2.044,3.043,0.80
+DSC cooling,0.818,2.357,3.179,0.80
+UTM stress-strain,0.800,2.221,2.886,0.80

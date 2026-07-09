@@ -1,0 +1,7 @@
+composition_id,alcohol_ratio,cnc_type,cnc_content,n_ftir,n_utm,paired_rows,cv_fold,split_role
+PBPF-73,73,Pure,0.0,3,5,15,0,test
+PBPF-73P-0.05,73,P,0.05,3,6,18,0,test
+PBPF-73S-0.1,73,S,0.1,3,6,18,0,test
+PBPF-82P-0.2,82,P,0.2,3,7,21,0,test
+PBPF-82S-0.05,82,S,0.05,3,5,15,0,test
+PBPF-91S-0.05,91,S,0.05,3,7,21,0,test
