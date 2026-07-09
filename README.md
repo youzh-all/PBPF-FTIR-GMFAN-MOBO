@@ -4,7 +4,7 @@ Public repository for the manuscript:
 
 **Spectroscopy-Guided Thermomechanical Trajectory Learning for Inverse Design of PBPF Bioplastics**
 
-This repository provides manuscript-aligned resources for inspecting the FT-IR-guided GMFAN/MOBO workflow described in the 260626 manuscript version. The materials are organized to make the formulation space, split design, representative FT-IR input format, uncertainty summary, and computationally prioritized MOBO candidates easy to review.
+This repository provides manuscript-aligned resources for inspecting the FT-IR-guided GMFAN/MOBO workflow described in the associated manuscript. The materials are organized to make the formulation space, split design, representative FT-IR input format, uncertainty summary, and computationally prioritized MOBO candidates easy to review.
 
 ## Workflow overview
 

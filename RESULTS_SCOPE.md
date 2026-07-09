@@ -2,19 +2,16 @@
 
 ## Directly reproducible from this public repository
 
-- Inspection of the 260626 manuscript-aligned formulation space and split summary.
+- Inspection of the manuscript-aligned formulation space and split summary.
 - Verification that public metadata preserve the manuscript-level counts: 24 formulations, 459 paired measurements, and 108 fixed-test paired measurements.
 - Inspection of a small representative downsampled FT-IR sample file.
 - Verification of the reported MOBO-prioritized candidate identifiers.
 
-## Not directly reproducible from this public repository
+## Repository-supported review
 
-- Full GMFAN model training.
-- Full DSC/UTM curve-prediction performance.
-- Full XAI attribution maps.
-- Full MOBO landscape reconstruction.
+The public files support review of the dataset organization, formulation-disjoint split design, representative FT-IR input format, uncertainty summary, and prioritized MOBO candidate table associated with the manuscript.
 
-These require the full experimental FT-IR, DSC, and UTM datasets and internal model-training outputs, which are not included in this minimal public package.
+Full model retraining, full curve-prediction benchmarking, XAI attribution-map generation, and MOBO landscape reconstruction require the full experimental FT-IR, DSC, and UTM datasets available from the corresponding authors upon reasonable request.
 
 ## Interpretation boundary
 
