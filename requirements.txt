@@ -1,1 +1,5 @@
-# No third-party Python packages are required for the public consistency check.
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+torch>=2.0

@@ -13,6 +13,7 @@ The manuscript describes a gated multimodal fusion attention network (GMFAN) tha
 ## Repository contents
 
 ```text
+code/          GMFAN architecture, preprocessing, and curve-uncertainty custom-code components
 metadata/      Manuscript-aligned formulation, split, input/target schema, uncertainty, metric, and MOBO summary CSV files
 data_sample/   Representative sample files showing the public FT-IR input and formulation metadata format
 scripts/       Lightweight consistency and metadata-inspection utilities
@@ -29,8 +30,9 @@ This repository enables readers to:
 3. examine representative FT-IR input formatting and formulation metadata;
 4. review model input, response-target, and evaluation-metric definitions;
 5. review the reported curve-uncertainty summary;
-6. review the computationally prioritized MOBO candidate formulations; and
-7. run lightweight consistency and metadata-inspection utilities.
+6. review the computationally prioritized MOBO candidate formulations;
+7. inspect the central custom-code components for GMFAN architecture, preprocessing, and curve-level uncertainty calculations; and
+8. run lightweight consistency and metadata-inspection utilities.
 
 ## Manuscript-aligned key facts
 
@@ -42,6 +44,10 @@ This repository enables readers to:
 - Model family: gated multimodal fusion attention network (GMFAN)
 - Curve uncertainty PICP values: 0.805 for DSC heating, 0.818 for DSC cooling, and 0.800 for UTM
 - Computationally prioritized MOBO candidates: `PBPF-91A-0.1` and `PBPF-91P-0.1`
+
+## Custom code
+
+The central custom-code components are provided in [`code/`](code/), including the GMFAN architecture, preprocessing utilities, and curve-level uncertainty metrics. See [`code/README.md`](code/README.md) for installation and a minimal architecture check.
 
 ## Quick check
 
